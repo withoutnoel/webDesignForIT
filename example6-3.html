@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>example6-3</title>
+    <style>
+        body {
+     background-image: url('ING/tenor.gif');
+     background-size: cover; /* เพื่อให้รูปครอบคลุมทั้งหน้าจอ */
+     background-repeat: no-repeat; /* ไม่ให้รูปซ้ำ */
+      }
+     </style>
+</head>
+<body>
+    <center>
+    <form>
+    <table>
+    <tr>
+        <td><label for="fname">ชื่อและสกุล:</label></td>
+        <td>
+            <input type="text" name="fname" size="10" placeholder="ชื่อ">
+            <input type="text" name="lname" size="14" placeholder="นามสกุล">
+        </td>
+    </tr>
+    <tr>
+        <td><label for="addr1">ที่อยู่บรรทัดที่ 1:</label></td>
+        <td>
+            <input type="text" id="addr1" name="address1" size="30" 
+                placeholder="เลขที่ ซอย ถนน"
+            >
+        </td>
+    </tr>
+    <tr>
+        <td><label for="addr2">ที่อยู่บรรทัดที่ 2:</label></td>
+        <td>
+            <input type="text" id="addr2" name="address2" size="30" 
+                placeholder="แขวง/ตำบล เขต/อำเภอ จังหวัด"
+            >
+        </td>
+    </tr>
+    <tr>
+        <td><label for="zip">ใส่รหัสไปรษณีย์:</label></td>
+        <td>
+            <input type="number" id="zip" name="postalcode" maxlength="5" size="10"
+            size="30" placeholder="ใส่รหัสไปรษณีย์"></td>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="phone">โทร:</label></td>
+        <td>
+            <input type="number" id="phone" name="phone" maxlength="10"
+                size="30" placeholder="ใส่เฉพาะตัวเลข"
+            >
+        </td>
+    </tr>
+    <tr>
+        <td><label for="email">อีเมล:</label></td>
+        <td><input type="email" id="eml" name="email" size="30"
+            size="30" placeholder="ใส่เฉพาะอีเมล"></td>
+    </tr>
+    </table>        
+    </form>
+</center>
+</body>
+</html>
